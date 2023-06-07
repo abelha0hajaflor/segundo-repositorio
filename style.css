@@ -1,12 +1,40 @@
-body {
-    background-color: rgb(123, 14, 224);
+*{
+    margin: 0;
+    padding: 0;
 }
-HEADER{background-color: black;
-color:white
 
+body{
+    background-color: 
+    font-family: ´prompt´, sans-serif;
 }
-.cabecalho-imagem
-{ 
+
+cabecalho{
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: space-around
+    padding: 24px 0
+}
+
+cabecalho-imagem{
     width: 20%;
-    
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+secao1{
+    background-image: linear-gradient();
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+secao1-titulo{
+    padding: 24px 0
 }
