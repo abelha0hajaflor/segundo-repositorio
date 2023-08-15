@@ -1,42 +1,43 @@
 *@import url(/styles/header.css);
-   
-    :root{
-    --cor-principal:#ffffff;
-    --cor-secundaria:#92f1f1;
-    --cor-escrita:#0f0f0f;
-    --cor-defundo:#cd88f5;
-    
+
+:root {
+    --cor-principal: #ffffff;
+    --cor-secundaria: #92f1f1;
+    --cor-escrita: #0f0f0f;
+    --cor-defundo: #cd88f5;
+    --fonte-principal:"Roboto";
+    --fonte-secundadria:"Poppins";
 
 }
-    margin: 0;
-    padding: 0;
+
+margin: 0;
+padding: 0;
 }
 
-body{
-    background-color: 
-    font-family: 'prompt', sans-serif;
+body {
+    background-color:
+        font-family: 'prompt', sans-serif;
 }
 
-cabecalho{
+cabecalho {
     background-color: aqua;
     color: black;
     display: flex;
-    justify-content: space-around
-    padding: 24px 0
+    justify-content: space-around padding: 24px 0
 }
 
-cabecalho-imagem{
+cabecalho-imagem {
     width: 20%;
 }
 
-.cabecalho-lista-item{
+.cabecalho-lista-item {
     display: inline-block;
     margin: 0 16px;
     padding: 24px 0;
     font-size: 24px;
 }
 
-secao1{
+secao1 {
     background-image: linear-gradient();
     color: aliceblue;
     display: flex;
@@ -44,14 +45,15 @@ secao1{
     padding: 24px 0;
 }
 
-secao1-titulo{
+secao1-titulo {
     padding: 24px 0
 }
+
 .secao1-imagem {
     width: 40%;
 }
 
-.secao1-div-conteudo{
+.secao1-div-conteudo {
     width: 35%;
 }
 
@@ -59,12 +61,12 @@ secao1-titulo{
     width: 120px;
 }
 
-.div-apresentacao{
+.div-apresentacao {
     text-align: center;
     padding: 16px 0;
 }
 
-.icon-redes{
+.icon-redes {
     width: 24px;
     padding: 4px 8px;
 }

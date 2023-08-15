@@ -21,6 +21,7 @@
 }
 
 .container__imagem {
+    width: 10%;
     padding: 1em;
 
 }
@@ -40,5 +41,16 @@
 .container__menu {
     display: none;
 }
+.cabecalho-lista-titulo
+ color; var(--roxo)
 
-.l
+
+
+  @media screen and (min-whidth: 1024px)  {
+    .container-titulo
+    display: block;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 30px
+
+}
