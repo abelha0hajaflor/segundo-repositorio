@@ -34,23 +34,19 @@
     width: 60vw;
 }
 
-.container__menu:checked~.cabecalho-lista {
+.container__botao:checked~.cabecalho-lista {
     display: block;
 }
 
 .container__menu {
     display: none;
 }
-.cabecalho-lista-titulo
- color; var(--roxo)
 
+.cabecalho-lista-titulo color;
 
-
-  @media screen and (min-whidth: 1024px)  {
-    .container-titulo
-    display: block;
+var(--roxo) @media screen and (min-whidth: 1024px) {
+    .container-titulo display: block;
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 30px
-
 }
