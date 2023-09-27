@@ -1,17 +1,19 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    justify-content: space-between;
     background-color: azure;
+    align-items: center;
     position: relative;
 }
 
 .cabecalho_menu {
-    display: inline-block;
+    width: 24px;
+    height: 24px;
     background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 24px;
-    height: 24px;
+    display: inline-block;
 }
 
 .container {
@@ -19,6 +21,11 @@
     justify-content: space-between;
     align-items: center;
 }
+
+    .container__imagem{
+     padding: lem;
+   
+ }
 
 .container__imagem {
     width: 10%;
@@ -38,9 +45,26 @@
     display: block;
 }
 
-.container__menu {
+.container__botão {
     display: none;
 }
+ .cabecalho-lista-titulo{
+    padding: lem;
+    color: var(--azul);
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+
+ .cabecalho-lista-item{
+    padding: lem;
+    color: var(--azul);
+ }
+  .menu__lista-item{
+    background: var(--cor-secundaria);
+    color: var(--azul)
+  }
+
+
 
 .cabecalho-lista-titulo color;
 
