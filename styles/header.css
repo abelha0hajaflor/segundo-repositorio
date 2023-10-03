@@ -59,10 +59,7 @@
     padding: lem;
     color: var(--azul);
  }
-  .menu__lista-item{
-    background: var(--cor-secundaria);
-    color: var(--azul);
-  }
+  
 .container-titulo{
     display: none;
 }
@@ -70,14 +67,32 @@
     background: var(--cor-secundaria);
     color(srgb red green blue);
     -webkit-background-clip: TEXT;
+    -webkit-text-fill-color: black;
 }
-
-
-.cabecalho-lista-titulo color;
-
-var(--roxo) @media screen and (min-whidth: 1024px) {
+.opcoes{
+    display: none
+}
+.container_texto{
+  display :none
+}
+@media screen and (min-whidth: 1024px) {
     .container-titulo display: block;
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 30px
 }
+.cabecalho_menu{
+    display: none;
+}
+.cabecalho-favorito{
+   display: none;
+}
+.opcoes{
+    display: flex;
+}
+.opcoes__item{
+     padding: 0 2em;
+     text-transform: uppercase;
+     color: var(--azul);
+}
+.opcoes__link
