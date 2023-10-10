@@ -29,7 +29,7 @@
  }
 
 .container__imagem {
-    width: 10%;
+    width: 32px;
     padding: 1em;
 
 }
@@ -76,8 +76,17 @@
 .container_texto{
   display :none
 }
+
+.cabecalho-favorito{
+  width: 32px;
+
+}
+.cabecalho-de-chat{ 
+    width: 32px;
+}
+
 @media screen and (min-whidth: 1024px) {
-    .container-titulo display: block;
+    .container-titulo { display: block;
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 30px
@@ -96,4 +105,32 @@
      text-transform: uppercase;
      color: var(--azul);
 }
-.opcoes__link
+.opcoes__link{
+
+
+}
+
+
+}
+
+@media screen and (min-whidth: 1728px) {
+.container__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--azul);
+}
+ .cabecalho{
+    padding: 0 2em;
+}
+ .opcoes{
+    margin-right: auto;=
+}
+.container_texto{
+    display: block;
+}
+
+
+
+
+}
