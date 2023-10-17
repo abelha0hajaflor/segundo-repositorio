@@ -1,13 +1,14 @@
 *@import url(/styles/header.css);
+@import url(/styles/carrossel.css);
 
 :root {
     --cor-principal: #ffffff;
     --cor-secundaria: #92f1f1;
     --cor-escrita: #0f0f0f;
     --cor-defundo: #cd88f5;
+    --azul-degrade: linear-grandient(#262526);;
     --fonte-principal:"Roboto";
     --fonte-secundadria:"Poppins";
-
 
 body {
     
