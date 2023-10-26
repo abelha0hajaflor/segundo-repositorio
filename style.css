@@ -1,12 +1,20 @@
 *@import url(/styles/header.css);
 @import url(/styles/carrossel.css);
-
+#B68BD3
 :root {
-    --cor-principal: #ffffff;
-    --cor-secundaria: #92f1f1;
-    --cor-escrita: #0f0f0f;
-    --cor-defundo: #cd88f5;
-    --azul-degrade: linear-grandient(#262526);;
+    --cor-principal: #B68BD3;
+    --cor-secundaria: #80589C;
+    --cor-3:#FFE9FF;
+    --cor-4 :#4B8178;
+    --cor-5 : #005B4C;
+
+
+
+
+    --cor-escrita: #030003;
+    --cor-defundo: #005B4C;
+    --cor-5: #4B8178;
+    --azul-degrade: linear-grandient(#262526);
     --fonte-principal:"Roboto";
     --fonte-secundadria:"Poppins";
 
