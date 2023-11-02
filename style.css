@@ -1,6 +1,5 @@
 *@import url(/styles/header.css);
 @import url(/styles/carrossel.css);
-#B68BD3
 :root {
     --cor-principal: #B68BD3;
     --cor-secundaria: #80589C;
@@ -8,15 +7,14 @@
     --cor-4 :#4B8178;
     --cor-5 : #005B4C;
 
-
-
-
     --cor-escrita: #030003;
     --cor-defundo: #005B4C;
     --cor-5: #4B8178;
     --azul-degrade: linear-grandient(#262526);
+
     --fonte-principal:"Roboto";
     --fonte-secundadria:"Poppins";
+}
 
 body {
     
@@ -24,14 +22,14 @@ body {
         font-family: var(--fonte-primaria);
 }
 
-cabecalho {
+.cabecalho {
     background-color: aqua;
     color: black;
     display: flex;
     justify-content: space-around padding: 24px 0
 }
 
-cabecalho-imagem {
+.cabecalho-imagem {
     width: 20%;
 }
 
@@ -42,7 +40,7 @@ cabecalho-imagem {
     font-size: 24px;
 }
 
-secao1 {
+.secao1 {
     background-image: linear-gradient();
     color: aliceblue;
     display: flex;
@@ -50,7 +48,7 @@ secao1 {
     padding: 24px 0;
 }
 
-secao1-titulo {
+.secao1-titulo {
     padding: 24px 0
 }
 
