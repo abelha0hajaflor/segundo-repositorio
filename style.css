@@ -21,6 +21,9 @@ body {
       background-color:var(--cor-defundo) ;
         font-family: var(--fonte-primaria);
 }
+h1{
+    color:var(--cor-3);
+}
 
 .cabecalho {
     background-color: aqua;
@@ -68,8 +71,21 @@ body {
     text-align: center;
     padding: 16px 0;
 }
+.apresentacao-titulo{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 24px;
 
+}
+.icones{
+    display: flex;
+    justify-content: center;
+}
 .icon-redes {
     width: 24px;
     padding: 4px 8px;
+}
+.section3-img-1{
+    width: 40%;
 }

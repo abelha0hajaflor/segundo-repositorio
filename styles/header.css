@@ -24,7 +24,6 @@
 
 .cabecalho__imagem{
      padding: 1em;
-     width: 20%;
    
  }
 
@@ -68,28 +67,22 @@
     background: var(--cor-secundaria);
     color(srgb red green blue);
     -webkit-background-clip: TEXT;
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
 .opcoes{
-    display: none
+    display: none;
 }
 .container_texto{
-  display :none
-}
-
-.cabecalho-favorito{
-  width: 32px;
-
-}
-.cabecalho-de-chat{ 
-    width: 32px;
+  display :none;
 }
 
 @media screen and (min-whidth: 1024px) {
     .container-titulo { display: block;
     font-family: var(--fonte-principal);
     font-weight: 400;
-    font-size: 30px
+    font-size: 30px;
 }
 .cabecalho_menu{
     display: none;
@@ -106,12 +99,17 @@
      color: var(--azul);
 }
 .opcoes__link{
-
-
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+.opcoes__botao:checked -.cabecalho-lista{
+    display: block;
+    width: auto;
+}
+.opcoes__botao{
+    display: none;
 }
 
-
-}
 
 @media screen and (min-whidth: 1728px) {
 .container__link{
@@ -124,7 +122,7 @@
     padding: 0 2em;
 }
  .opcoes{
-    margin-right: auto;=
+    margin-right: auto;
 }
 .container_texto{
     display: block;
