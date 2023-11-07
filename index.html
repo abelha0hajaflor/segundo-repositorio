@@ -75,15 +75,17 @@
       </div>
 
     </header>
-  </body>
+  
   <section class="secao1">
 
     <div class="secao1-div-conteudo">
       <h2 class="secao1-titulo"> quem somos: </h2>
-      <p clas="secaop1"> somos uma empresa esprcializada em roupas feminas e masculinas </p>
+      <p class="secao1-p1"> somos uma empresa esprcializada em roupas feminas e masculinas </p>
+      <p class="secao1-p2">oferecemos...</p>
     </div>
 
-     <img class="secao1-imagem" scr="img/nossa.empresaa1.jpeg"
+     <img class="secao1-imagem" scr="img/nossaempresaa1.jpeg">
+
   </section>
 
   <section>
@@ -100,7 +102,7 @@
     <div class="div-apresentacao">
       <h3 claass="nome"> sarah willrich</h2>
         <img class="nome-img" src="./img/sarah1.jpeg" alt="foto pessoal">
-        <img class="icone-git" scr=" ./img/github-logo.png" alt=" icone github">
+        <img class="icone-git" scr="./img/github-logo.png" alt=" icone github">
         <img class="icone-redes" src="./img/instagram.png" alt="icone instagram">
         <img class="icone-redes" src="./img/whatsapp.png" alt="icone whatsapp">
       </h3>
@@ -115,7 +117,7 @@
     </div>
   </section>
 
-  <section> class="carrossel">
+  <section class="carrossel">
 
     <h2> Nossoss produtos e serviços</h2>
 
@@ -125,15 +127,14 @@
         <!--Aditional required wrapper-->
         <div class="swiper-wrapper">
           <!--Slides-->
-          <div class="swiper-wrapper"> Imagem 1
+          <div class="swiper-wrapper"> 
             <img src="img/roupas1.jpg" alt="conjunto">
           </div>
-          <div class="swiper-slide"> Imagem2
+          <div class="swiper-slide"> 
             <img scr="img/roupas2.jpg" alt="academia">
           </div>
-          <div class="swiper-slide"> Imagem 3
+          <div class="swiper-slide"> 
             <img src="img/roupas3.jpg" alt="conjunto verao">
-
           </div>
           <!--If we need pagination-->
           <div clas="swiper-pagination"></div>
@@ -191,13 +192,16 @@
   </section>
 
 
-
-
-
-
-
-
-
+  <script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 2,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+</script>
 
 
 </body>
