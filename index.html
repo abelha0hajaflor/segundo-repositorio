@@ -79,12 +79,12 @@
     </header>
   
     
-    
-    
-    
-    
-    
-    
+   
+
+
+
+
+
     
     <section class="secao1">
 
@@ -92,7 +92,7 @@
       <div class="secao1-div-conteudo">
         <h2 class="secao1-titulo"> Quem somos: </h2>
         <p class="secao1-p1"> Somos uma empresa esprcializada em roupas feminas e masculinas. </p>
-        <p class="secao1-p2">oferecemos...</p>
+        <p class="secao1-p2">oferecemos uma otima qualidade em nossos produtos</p>    <img class="secao1-imagem" src="./img/" looks.jpeg>
       </div>
 
       <img class="secao1-imagem" scr="img/nossaempresaa1.jpeg">
@@ -103,13 +103,16 @@
 
       <h2 class="carrossel__titulo">Nossos Produtos e Serviços</h2>
   
+      <!--Slider main container-->
       <div class="carrosel__container">
-        <!--Slider main container-->
         <div class="swiper">
           <!--Aditional required wrapper-->
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
           <div class="swiper-wrapper">
             <!--Slides-->
-            <div class="swiper-wrapper"> 
+            <div class="swiper-slide"> 
               <img src="img/roupas1.jpg" alt="conjunto">
             </div>
             <div class="swiper-slide"> 
@@ -118,130 +121,77 @@
             <div class="swiper-slide"> 
               <img src="img/roupas3.jpg" alt="conjunto verao">
             </div>
-            <!--If we need pagination-->
-            <div clas="swiper-pagination"></div>
-  
-            <!--If we need navigation buttos-->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-  
-            <!--If we need scrollbar-->
-            <div class="swaper-scrollbar"></div>
-  
+
+
+
+          </div>
+
+          <!--If we need navigation buttons-->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
   
         <div class="card">
-  
+          <!-- 1º linha -->
           <div class="card-descricao">
-  
-            <div class="card-descricao">
+            <!-- 1º coluna -->
+            <div class="descricao">
               <h3 class="descricao__titulo">talvez você se interesse por...</h3>
-  
-              <h2 class="descricao__titulo-produto">
-               sua roupa perfeita</h2>
-  
-               <p> Descubra o seu estilo com elegância que você merece! Na nossa coleção de primaveira,  encontre as melhores peças para expressar a sua individualidade. de vestidos delumbrante a conjutos modernos, estamo pronto para elevar o seu guarda-roupa. Visite-nos e mergulhe na moda que encanta.</p>
-          
-              </h2>
-            
-            <img rc=".img/nosso.melhor.produto.png">
-            alt="nossa melor produtos"
-  
-            <div class="card__botoes">
-  
-  
-          <Ul>
-            <li class="botoes-item">
-            <img src="img/nosso.melhor.produto.png">
-            alt="favoritar produtos"> </li>
-            <li class="botoes-item"><img
-              src="img/compras.svg"
-          </Ul>
-  
-  
-            </div> 
-  
-            </div>
-                
+              <h2 class="descricao__titulo-produto"> Sua roupa perfeita</h2>
+              <p class="descricao__texto"> Descubra o seu estilo com elegância que você merece! Na nossa coleção de primaveira,  encontre as melhores peças para expressar a sua individualidade. de vestidos delumbrante a conjutos modernos, estamo pronto para elevar o seu guarda-roupa. Visite-nos e mergulhe na moda que encanta.</p>
+            </div>       
+            <!-- 2º coluna -->
+            <img src="img/nosso.melhor.produto.png" class="descricao__imagem" alt="nossa melhor produtos">
           </div>
-        </div>
-  
-  
-  
+            
+          <!-- 2º linha -->
+          <div class="card__botoes">
+            <!-- 1º coluna -->
+            <ul class="botoes">
+              <li class="botoes__item"> <img src="img/nosso.melhor.produto.png"  alt="Favoritar produto"> </li>
+              <li class="botoes__item"><img src="img/compras.svg" alt="Adicionar no carrinho de compras"></li>
+            </ul>
+            <!-- 2º coluna -->
+            <a href="#" class="botoes__ancora">Saiba mais</a>
+          </div>
+        </div>        
       </div>
-  
-  
-    </section>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <section>
-
-      <p class="secao1-p2"> oferecemos uma otima qualidade em nossos produtos
-        <img class="secao1-imagem" src="./img/" looks.jpeg>
-
     </section>
 
-  <section class="apresentacao">
+    <section class="apresentacao">
+      <h2 class="apresentacao-titulo">Apresentação:</h2>
+        <div class="apresentacao-tudo">
+          <span></span>
+          <div class="div-apresentacao">
+            <h3 claass="nome"> Sarah Willrich</h3>
+            <a href=""><img class="nome-img" src="./img/sarah1.jpeg" alt="Foto Pessoal"></a>
+            <div class="icones">
+              <a href="">
+                <img class="icon-redes" src="./img/githublogo.png" alt=" icone github">
+              </a>
+              <a href="#">
+                <img class="icon-redes" src="./img/instagram.png" alt="icone instagram">
+              </a>
+              <a href="#">
+                <img class="icon-redes" src="./img/whatsapp.png" alt="icone whatsapp">
+              </a>
+            </div>
+          </div>
+      </div>
+    </section>
 
-    <h2>apresentacao:</h2>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
 
-    <div class="div-apresentacao">
-      <h3 claass="nome"> sarah willrich</h2>
-        <img class="nome-img" src="./img/sarah1.jpeg" alt="foto pessoal">
-        <img class="icone-git" scr="./img/githublogo.png" alt=" icone github">
-        <img class="icone-redes" src="./img/instagram.png" alt="icone instagram">
-        <img class="icone-redes" src="./img/whatsapp.png" alt="icone whatsapp">
-      </h3>
-    </div>
-
-  </section>
-
-  <section>
-    <div>
-      <img src="./img/icons8-camiseta-24.png">
-
-    </div>
-  </section>
-
-  
-
-
-  <script>
-    const swiper = new Swiper('.swiper', {
-        spaceBetween: 10,
-        slidesPerView: 2,
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-        },
-    });
-</script>
-
-
-</body>
-
+    <script>
+      const swiper = new Swiper('.swiper', {
+          spaceBetween: 10,
+          slidesPerView: 2,
+          pagination: {
+              el: '.swiper-pagination',
+              type: 'bullets',
+          },
+      });
+    </script>
+  </body>
 </html>
