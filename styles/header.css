@@ -45,7 +45,7 @@
     display: block;
 }
 
-.container__botão {
+.container__botao {
     display: none;
 }
  .cabecalho-lista-titulo{
@@ -127,8 +127,6 @@
 .container_texto{
     display: block;
 }
-
-
 
 
 }
