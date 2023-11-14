@@ -21,10 +21,23 @@ body {
       background-color:var(--cor-defundo) ;
         font-family: var(--fonte-primaria);
 }
+
 h1{
     color:var(--cor-3);
 }
 
+
+.secao1 {
+    background-image: linear-gradient(#b68bd3,#80589c);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.secao1-titulo {
+    padding: 24px 0;
+}
 .cabecalho {
     background-color: aqua;
     color: black;
