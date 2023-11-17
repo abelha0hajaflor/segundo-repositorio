@@ -43,7 +43,7 @@ h1{
     padding: 16px 0;
 }
 .cabecalho {
-    background-color:rgba(89, 0, 255, 0.616);
+    background-color:rgba(0, 255, 115, 0.616);
     color: black;
     display: flex;
     justify-content: space-around padding: 24px 0;
