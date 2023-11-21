@@ -3,6 +3,7 @@
 @import url(/styles/topicos.css);
 @import url(/styles/contato.css);
 @import url(/styles/rodape.css);
+@import url(styles/header.css);
 
 :root {
     --cor-principal: #B68BD3;@import url(/styles/header.css);
