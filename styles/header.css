@@ -6,7 +6,13 @@
     align-items: center;
     position: relative;
 }
-
+.cabecalho {
+    background-color: var(--cor-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
 .cabecalho_menu {
     width: 24px;
     height: 24px;
