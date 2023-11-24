@@ -33,7 +33,7 @@ h1 {
 }
 
 .secao1 {
-    background-image: var(--rosa-degrade);
+    background-image: linear-gradient(--cor-secundaria, --cor-principal ); ;
     color: white;
     display: flex;
     justify-content: center;
