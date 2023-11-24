@@ -43,15 +43,15 @@ h1 {
 
 .secao1-titulo {
     padding: 24px 0;
-    font-size: larger;
+    font-size: 26px;
 }
 
 .secao1-p1{
-    font-size: medium;
+    font-size: 18px;
 }
 
 .secao1-imagem {
-    width: 40%;
+    width: 20%;
 }
 
 .secao1-div-conteudo{
