@@ -17,7 +17,7 @@
     --roxo: #9949B4;
     --amarelo: #F1F10E;
     --azul: #3d89ec;
-    --rosa-degrade: linear-gradient(--cor-secundaria, --cor-principal );
+    --rosa-degrade: linear-gradient(#005B5B, #FFC1FF );
 
     --fonte-principal: "Roboto";
     --fonte-secundaria: "Prompt";
@@ -33,7 +33,7 @@ h1 {
 }
 
 .secao1 {
-    background-image: linear-gradient(--cor-secundaria, --cor-principal ); ;
+    background-image: var(--rosa-degrade) ;
     color: white;
     display: flex;
     justify-content: center;
