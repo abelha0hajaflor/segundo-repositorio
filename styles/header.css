@@ -64,7 +64,7 @@
 
 .menu__lista-item{
     background: var(--cor-principal);
-    color: var(--azul);
+    color: var(--branco);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -102,12 +102,12 @@
     .opcoes__item{
         padding: 0 2em;
         text-transform: uppercase;
-        color: var(--branco);
+        color: var(--cor-letra);
     }
 
     .opcoes__link{
         text-decoration: none;
-        color: var(--branco);
+        color: var(--cor-letra);
     }
 
     .opcoes__botao:checked ~.cabecalho-lista{
@@ -127,7 +127,7 @@
         display: flex;
         align-items: center;
         text-decoration: none;
-        color: var(--branco);
+        color: var(--cor-letra);
     }
 
     .cabecalho {
